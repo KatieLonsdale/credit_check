@@ -1,4 +1,7 @@
+# valid
 card_number = "5541808923795240"
+# invalid
+# card_number = "5541801923795240"
 
 def double_every_other_digit(card_number)
   double_numbers = []
