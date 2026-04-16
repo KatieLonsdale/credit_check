@@ -13,6 +13,13 @@ class CreditCheck
     divisible_by_ten?(summed_numbers.sum)
   end
 
+  def last_four
+    @card_number[-4..-1]
+  end
+
+
+  #helper methods
+
   def double_every_other_digit(card_number)
     double_numbers = []
     card_number.split("").each_with_index do |num, i|
